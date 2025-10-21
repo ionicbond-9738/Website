@@ -38,6 +38,19 @@
     --depth: 1;
     --noise: 0;
 } */
-root {
-    overflow-x: hidden;
+html, body {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
+@theme inline {
+    --font-anton: var(--font-anton);
+}
+
+.text-team {
+    color: #ff69b4;
 }

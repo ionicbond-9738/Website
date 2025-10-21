@@ -6,7 +6,7 @@ export default function Footer() {
 
 
     return (
-        <div className={"absolute bottom-0 flex"}>
+        <div className={"flex w-180"}>
             <footer
                 className="footer sm:footer-horizontal text-base-content p-10 flex items-center justify-between w-full">
                 <aside>

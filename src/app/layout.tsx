@@ -1,13 +1,17 @@
 import type {Metadata} from "next";
-import {Geist, Geist_Mono, Inter} from "next/font/google";
+import {Geist, Geist_Mono, Inter, Anton} from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import React from "react";
 
 const inter = Inter({
     variable: "--font-inter",
     subsets: ["latin"],
+})
+
+const anton = Anton({
+    variable: "--font-anton",
+    weight: "400",
+    subsets: ["latin"]
 })
 
 const geistSans = Geist({
@@ -33,7 +37,7 @@ export default function RootLayout({
     return (
         <html lang="en">
         <body
-            className={`${inter.className} antialiased `}
+            className={`${inter.variable} ${anton.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
         >
             {children}
         </body>
