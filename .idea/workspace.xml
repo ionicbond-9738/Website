@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="06d2ac88-8e34-4a20-8ac3-9b9832bb7bda" name="Changes" comment="Added about page and finished homepage">
+      <change afterPath="$PROJECT_DIR$/public/assets/robot/dopamine/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/robot/dopamine/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/robot/dopamine/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/robot/zinc/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/robot/zinc/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/robot/zinc/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/link.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/misc/about/about1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/misc/about/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/misc/about/about2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/misc/about/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/misc/about/about3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/misc/about/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/misc/about/about4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/misc/about/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/misc/about/about5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/misc/about/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/misc/about/about6.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/misc/about/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/misc/about/about7.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/misc/about/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/robot/robot_h2o_2024.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/robot/h2o/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/history/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/history/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OmriBerger&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ionicbond-9738/Website.git&quot;,
+    &quot;accountId&quot;: &quot;e4fefa9a-ef86-42b0-9f3e-ed27f9906eb0&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="34QA7JA3wTHhc732vY1hNg4ZT1F" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "feature/history__page",
+    "ignore.virus.scanning.warn.message": "true",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "last_opened_file_path": "C:/Users/omrib/WebstormProjects/Website/public/assets/binders",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.Next.js: server-side.executor": "Run",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
+    "ts.external.directory.path": "C:\\Users\\omrib\\WebstormProjects\\Website\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\omrib\WebstormProjects\Website\public\assets\binders" />
+      <recent name="C:\Users\omrib\WebstormProjects\Website\public\assets\logos" />
+      <recent name="C:\Users\omrib\WebstormProjects\Website\public\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\omrib\WebstormProjects\Website\src\assets\icons" />
+      <recent name="C:\Users\omrib\WebstormProjects\Website\public\icons" />
+      <recent name="C:\Users\omrib\WebstormProjects\Website\public\assets\robot\h2o" />
+      <recent name="C:\Users\omrib\WebstormProjects\Website\public\assets\robot\zinc" />
+      <recent name="C:\Users\omrib\WebstormProjects\Website\public\assets\robot\dopamine" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.26927.40" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06d2ac88-8e34-4a20-8ac3-9b9832bb7bda" name="Changes" comment="" />
+      <created>1761135252900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761135252900</updated>
+      <workItem from="1761135253932" duration="9026000" />
+      <workItem from="1761156532138" duration="5629000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added about page and finished homepage">
+      <option name="closed" value="true" />
+      <created>1761148974084</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761148974084</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added about page and finished homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added about page and finished homepage" />
+  </component>
+</project>
