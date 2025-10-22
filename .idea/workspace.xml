@@ -4,33 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06d2ac88-8e34-4a20-8ac3-9b9832bb7bda" name="Changes" comment="Added about page and finished homepage">
-      <change afterPath="$PROJECT_DIR$/public/assets/robot/dopamine/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/robot/dopamine/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/robot/dopamine/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/robot/zinc/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/robot/zinc/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/robot/zinc/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/link.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/misc/about/about1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/misc/about/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/misc/about/about2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/misc/about/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/misc/about/about3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/misc/about/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/misc/about/about4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/misc/about/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/misc/about/about5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/misc/about/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/misc/about/about6.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/misc/about/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/misc/about/about7.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/misc/about/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/robot/robot_h2o_2024.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/robot/h2o/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/history/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/history/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    <list default="true" id="06d2ac88-8e34-4a20-8ac3-9b9832bb7bda" name="Changes" comment="Added history page">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +27,22 @@
     &quot;assignee&quot;: &quot;OmriBerger&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ionicbond-9738/Website.git&quot;,
-    &quot;accountId&quot;: &quot;e4fefa9a-ef86-42b0-9f3e-ed27f9906eb0&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ionicbond-9738/Website.git",
+    "accountId": "e4fefa9a-ef86-42b0-9f3e-ed27f9906eb0"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "ionicbond-9738",
+    "repository": "Website"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -70,7 +56,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "feature/history__page",
+    "git-widget-placeholder": "#2 on feature/history__page",
     "ignore.virus.scanning.warn.message": "true",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
@@ -130,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761135252900</updated>
       <workItem from="1761135253932" duration="9026000" />
-      <workItem from="1761156532138" duration="5629000" />
+      <workItem from="1761156532138" duration="6273000" />
     </task>
     <task id="LOCAL-00001" summary="Added about page and finished homepage">
       <option name="closed" value="true" />
@@ -140,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761148974084</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added history page">
+      <option name="closed" value="true" />
+      <created>1761162544812</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761162544812</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +153,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added about page and finished homepage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added about page and finished homepage" />
+    <MESSAGE value="Added history page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added history page" />
   </component>
 </project>
