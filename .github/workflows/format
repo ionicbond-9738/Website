@@ -1,0 +1,38 @@
+name: Biome Manual Format
+
+# Trigger manually
+on:
+  workflow_dispatch:
+
+jobs:
+  manual-format:
+    name: Run Biome Format
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout repository
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 2. Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: npm ci
+
+      # 4. Run Biome formatting
+      - name: Format code with Biome
+        run: npx biome format .
+
+      # 5. Commit formatted code if any changes
+      - name: Commit and push formatted code
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "chore: manual auto format via Biome"
+          git push
