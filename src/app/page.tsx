@@ -12,8 +12,8 @@ export default function HomePage() {
 
             <main className="flex-grow">
                 {/* Hero Section */}
-                <div className="mx-auto max-w-screen-xl px-4 text-team">
-                    <div className="hero-content flex flex-col lg:flex-row items-center gap-8 relative lg:right-10">
+                <div className="mx-auto max-w-screen-xl px-4">
+                    <div className="hero-content flex flex-col lg:flex-row items-center gap-8 relative lg:right-10 text-team    ">
                         {/* Logo */}
                         <Image
                             src="/logo-hr.png"
@@ -25,7 +25,9 @@ export default function HomePage() {
 
                         {/* Text */}
                         <div className="px-4 text-center lg:text-left">
-                            <h1 className="text-4xl sm:text-6xl lg:text-9xl font-bold font-anton leading-tight text-shadow-md text-shadow-pink-500 whitespace-nowrap">
+                            <h1 className="text-4xl sm:text-6xl lg:text-9xl font-bold font-anton leading-tight text-shadow-md
+                            {/*text-shadow-pink-500*/}
+                             whitespace-nowrap">
                                 #9738 Ionic Bond
                             </h1>
                             <h3 className="text-lg sm:text-xl lg:text-3xl font-bold">
@@ -48,6 +50,58 @@ export default function HomePage() {
                 </div>
 
                 {/* Hero 2 */}
+                <div className="mx-auto max-w-screen-xl px-4">
+                    <div className="hero-content flex flex-col lg:flex-row items-center gap-8 relative lg:left-10 py-10">
+                        {/* Logo */}
+                        <Image
+                            src="/assets/robot/robot_h2o_2024.jpg"
+                            alt="Robot H2O 2024"
+                            width={1000}
+                            height={1000}
+                            className="w-full max-w-[600px] rounded-lg shadow-2xl"
+                        />
+
+                        {/* Text */}
+                        <div className="px-4 text-center lg:text-left">
+                            <h1 className="text-2xl sm:text-xl lg:text-3xl font-bold font-anton leading-tight text-team">
+                                What is <span className="italic">FIRST</span>{"\u00A0\u00A0"}Robotics Competition?
+                            </h1>
+                            <p className="text-lg sm:text-base lg:text-xl py-4">
+                                In FIRST Robotics Competition (FRC), high school students
+                                worldwide engage in robotics engineering, working under budget
+                                constraints, tight deadlines, and strict rules. Teams design
+                                and build robots to compete in a challenging game, but FRC
+                                also emphasizes strategic planning, fundraising, team identity,
+                                and promoting STEAM enthusiasm within their communities.
+                            </p>
+                            <a href={"https://www.firstinspires.org/programs/frc/"}>
+                                <button
+                                    className="btn btn-sm sm:btn-md md:btn-lg lg:btn-xl btn-team text-zinc-900">
+                                    Learn more about FIRST</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="mx-auto max-w-screen-xl px-4 flex flex-wrap justify-center gap-4">
+                    {[
+                        { src: "/assets/logos/first_vertical.png", alt: "FIRST Logo" },
+                        { src: "/assets/logos/tel_mond.png", alt: "Tel Mond Logo" },
+                        { src: "/assets/logos/community_center.png", alt: "Community Center Logo" }
+                    ].map((logo, index) => (
+                        <div key={index} className="w-full sm:w-auto max-w-[280px] flex justify-center">
+                            <Image
+                                src={logo.src}
+                                alt={logo.alt}
+                                width={280} // intrinsic width
+                                height={280} // intrinsic height
+                                className="w-full h-auto object-contain rounded-lg shadow-2xl"
+                            />
+                        </div>
+                    ))}
+                </div>
+
+
 
             </main>
 

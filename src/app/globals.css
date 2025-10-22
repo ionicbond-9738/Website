@@ -54,3 +54,22 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 .text-team {
     color: #ff69b4;
 }
+
+.bg-team {
+    background-color: #ff69b4;
+}
+
+.btn-team {
+    background: #ff69b4;
+}
+
+/* global.css */
+.drawer-toggle:checked ~ .drawer-side ul {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.drawer-toggle:checked ~ .drawer-side .drawer-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease-in-out;
+}
