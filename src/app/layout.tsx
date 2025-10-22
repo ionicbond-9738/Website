@@ -1,4 +1,4 @@
-import type {Metadata} from "next";
+import type {Metadata, Viewport} from "next";
 import {Geist, Geist_Mono, Inter, Anton} from "next/font/google";
 import "./globals.css";
 import React from "react";
@@ -27,6 +27,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
     title: "9738 Ionic Bond",
     description: "The website of the FRC team Ionic Bond 9738",
+};
+
+export const viewport: Viewport = {
+  width: 'device-width',
+    initialScale: 1
 };
 
 export default function RootLayout({
