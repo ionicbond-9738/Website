@@ -57,8 +57,9 @@ export default function Carousel({
             src={src}
             alt={`Carousel image ${idx + 1}`}
             fill
-            className={`object-cover absolute inset-0 transition-opacity duration-700 ease-in-out ${idx === current ? "opacity-100" : "opacity-0"
-              }`}
+            className={`object-cover absolute inset-0 transition-opacity duration-700 ease-in-out ${
+              idx === current ? "opacity-100" : "opacity-0"
+            }`}
             priority={idx === 0}
           />
         ))}
@@ -85,10 +86,11 @@ export default function Carousel({
           <span
             key={idx}
             onClick={() => goTo(idx)}
-            className={`w-3 h-3 rounded-full cursor-pointer transition-all duration-300 ${idx === current
-              ? "bg-white scale-125 shadow-md"
-              : "bg-white/50 hover:bg-white/70"
-              }`}
+            className={`w-3 h-3 rounded-full cursor-pointer transition-all duration-300 ${
+              idx === current
+                ? "bg-white scale-125 shadow-md"
+                : "bg-white/50 hover:bg-white/70"
+            }`}
           />
         ))}
       </div>

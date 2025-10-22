@@ -45,7 +45,9 @@ export function Hero() {
             #9738 Ionic Bond
           </h1>
           <h3 className="text-lg sm:text-xl lg:text-3xl font-bold">
-            Ionic Bond, a <span className="italic">FIRST</span> Robotics Competition Team from<br />
+            Ionic Bond, a <span className="italic">FIRST</span> Robotics
+            Competition Team from
+            <br />
             Rabin High School, Tel-Mond, Israel
           </h3>
         </motion.div>
@@ -54,9 +56,7 @@ export function Hero() {
   );
 }
 
-
 export default function HomePage() {
-
   return (
     <div className="bg-zinc-950 text-white min-h-screen flex flex-col">
       <Navbar />
@@ -64,7 +64,6 @@ export default function HomePage() {
       <main className="flex-grow">
         {/* Hero Section */}
         <Hero />
-
 
         <div className="mx-auto max-w-screen-xl px-4 py-6">
           <Image
@@ -91,20 +90,21 @@ export default function HomePage() {
             {/* Text */}
             <div className="px-4 text-center lg:text-left">
               <h1 className="text-2xl sm:text-xl lg:text-3xl font-bold font-anton leading-tight text-team">
-                What is <span className="italic">FIRST</span>{"\u00A0\u00A0"}Robotics Competition?
+                What is <span className="italic">FIRST</span>
+                {"\u00A0\u00A0"}Robotics Competition?
               </h1>
               <p className="text-lg sm:text-base lg:text-xl py-4">
                 In FIRST Robotics Competition (FRC), high school students
                 worldwide engage in robotics engineering, working under budget
-                constraints, tight deadlines, and strict rules. Teams design
-                and build robots to compete in a challenging game, but FRC
-                also emphasizes strategic planning, fundraising, team identity,
-                and promoting STEAM enthusiasm within their communities.
+                constraints, tight deadlines, and strict rules. Teams design and
+                build robots to compete in a challenging game, but FRC also
+                emphasizes strategic planning, fundraising, team identity, and
+                promoting STEAM enthusiasm within their communities.
               </p>
               <a href={"https://www.firstinspires.org/programs/frc/"}>
-                <button
-                  className="btn btn-sm sm:btn-md md:btn-lg lg:btn-xl btn-team text-zinc-600 rounded-lg">
-                  Learn more about FIRST</button>
+                <button className="btn btn-sm sm:btn-md md:btn-lg lg:btn-xl btn-team text-zinc-600 rounded-lg">
+                  Learn more about FIRST
+                </button>
               </a>
             </div>
           </div>
@@ -114,9 +114,15 @@ export default function HomePage() {
           {[
             { src: "/assets/logos/first_vertical.png", alt: "FIRST Logo" },
             { src: "/assets/logos/tel_mond.png", alt: "Tel Mond Logo" },
-            { src: "/assets/logos/community_center.png", alt: "Community Center Logo" }
+            {
+              src: "/assets/logos/community_center.png",
+              alt: "Community Center Logo",
+            },
           ].map((logo, index) => (
-            <div key={index} className="w-full sm:w-auto max-w-[280px] flex justify-center">
+            <div
+              key={index}
+              className="w-full sm:w-auto max-w-[280px] flex justify-center"
+            >
               <Image
                 src={logo.src}
                 alt={logo.alt}
@@ -127,9 +133,6 @@ export default function HomePage() {
             </div>
           ))}
         </div>
-
-
-
       </main>
 
       <Footer />

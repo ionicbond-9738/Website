@@ -46,7 +46,13 @@ export default function Navbar() {
               <li>
                 <Link href="/">
                   <div className="btn-ghost btn-circle w-10 rounded-full cursor-pointer">
-                    <Image src="/logo.png" width={500} height={500} alt="Logo" className="select-none" />
+                    <Image
+                      src="/logo.png"
+                      width={500}
+                      height={500}
+                      alt="Logo"
+                      className="select-none"
+                    />
                   </div>
                 </Link>
               </li>
@@ -68,8 +74,9 @@ export default function Navbar() {
                   <li key={href}>
                     <Link href={href}>
                       <div
-                        className={`btn-ghost text-xl text-base-content cursor-pointer ${pathname === href ? "font-bold" : ""
-                          }`}
+                        className={`btn-ghost text-xl text-base-content cursor-pointer ${
+                          pathname === href ? "font-bold" : ""
+                        }`}
                       >
                         {label}
                       </div>
@@ -88,7 +95,9 @@ export default function Navbar() {
             {navItems.map(({ href, label }) => (
               <li key={href}>
                 <Link href={href}>
-                  <span className={`cursor-pointer ${pathname === href ? "font-bold" : ""}`}>
+                  <span
+                    className={`cursor-pointer ${pathname === href ? "font-bold" : ""}`}
+                  >
                     {label}
                   </span>
                 </Link>

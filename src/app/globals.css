@@ -38,38 +38,40 @@
     --depth: 1;
     --noise: 0;
 } */
-html, body {
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none;  /* IE and Edge */
+html,
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
 }
 
-html::-webkit-scrollbar, body::-webkit-scrollbar {
-    display: none; /* Safari and Chrome */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
 
 @theme inline {
-    --font-anton: var(--font-anton);
+  --font-anton: var(--font-anton);
 }
 
 .text-team {
-    color: #ff69b4;
+  color: #ff69b4;
 }
 
 .bg-team {
-    background-color: #ff69b4;
+  background-color: #ff69b4;
 }
 
 .btn-team {
-    background: #ff69b4;
+  background: #ff69b4;
 }
 
 /* global.css */
 .drawer-toggle:checked ~ .drawer-side ul {
-    transform: translateX(0);
-    opacity: 1;
+  transform: translateX(0);
+  opacity: 1;
 }
 
 .drawer-toggle:checked ~ .drawer-side .drawer-overlay {
-    background-color: rgba(0, 0, 0, 0.5);
-    transition: background-color 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease-in-out;
 }

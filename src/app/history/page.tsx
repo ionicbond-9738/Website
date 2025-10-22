@@ -11,10 +11,9 @@ export default function HistoryPage() {
         <div className="mx-auto max-w-screen-xl px-4 flex flex-col ">
           <PageTitle title="History" />
         </div>
-
       </main>
 
       <Footer />
     </div>
-  )
+  );
 }
