@@ -11,6 +11,7 @@ import { useState } from "react";
 const robots = [
   {
     name: "Zinc (REEFSCAPE)",
+    year: 2025,
     images: Array.from(
       { length: 3 },
       (_, i) => `/assets/robot/zinc/${i + 1}.png`,
@@ -34,6 +35,7 @@ const robots = [
   },
   {
     name: "Dopamine (CRESCENDO)",
+    year: 2024,
     images: Array.from(
       { length: 3 },
       (_, i) => `/assets/robot/dopamine/${i + 1}.png`,
@@ -74,7 +76,7 @@ export default function HistoryPage() {
           {/* Spacer */}
           {robots.map((robot) => {
             // Generate a URL-friendly ID for the section
-            const sectionId = robot.name.toLowerCase().replace(/\s+/g, "-");
+            const sectionId = robot.year.toString();
 
             return (
               <section
@@ -96,51 +98,56 @@ export default function HistoryPage() {
                     className="font-anton font-bold text-team leading-tight tracking-tight text-center lg:text-left flex items-center gap-2"
                     style={{ fontSize: "clamp(1.75rem, 4vw, 3.5rem)" }}
                   >
-                    {robot.name}
-
-                    {/* Copy-link button */}
                     <div
-                      className="relative group"
-                      data-tip="Click to copy link to clipboard"
+                      className={"flex-col font-normal sm:items-center w-full"}
                     >
-                      <button
-                        onClick={() => {
-                          navigator.clipboard.writeText(
-                            `${window.location.origin}/history#${sectionId}`,
-                          );
-                          sendAlert();
-                        }}
-                        className="btn btn-ghost"
-                        aria-label="Copy link"
-                      >
-                        <LinkIcon className="fill-accent w-6 h-6" />
-                      </button>
-
-                      {/* Tooltip */}
-                      <span
-                        className="
-    absolute bottom-full left-1/2 -translate-x-1/2 mb-2
-    px-3 py-1.5
-    text-base font-medium
-    text-white bg-black bg-opacity-90
-    rounded-md
-    shadow-md
-    opacity-0 group-hover:opacity-100
-    transition-opacity duration-200
-    whitespace-nowrap
-    pointer-events-none
-    z-50
-    font-inter
-  "
-                      >
-                        Click to copy link to clipboard
-                      </span>
+                      {robot.name}
+                      <div className={"text-xl"}>{robot.year}</div>
                     </div>
+
+                    {/*                  /!* Copy-link button *!/*/}
+                    {/*                  <div*/}
+                    {/*                    className="relative group"*/}
+                    {/*                    data-tip="Click to copy link to clipboard"*/}
+                    {/*                  >*/}
+                    {/*                    <button*/}
+                    {/*                      onClick={() => {*/}
+                    {/*                        navigator.clipboard.writeText(*/}
+                    {/*                          `${window.location.origin}/history#${sectionId}`,*/}
+                    {/*                        );*/}
+                    {/*                        sendAlert();*/}
+                    {/*                      }}*/}
+                    {/*                      className="btn btn-ghost"*/}
+                    {/*                      aria-label="Copy link"*/}
+                    {/*                    >*/}
+                    {/*                      <LinkIcon className="fill-accent w-6 h-6" />*/}
+                    {/*                    </button>*/}
+
+                    {/*                    /!* Tooltip *!/*/}
+                    {/*                    <span*/}
+                    {/*                      className="*/}
+                    {/*  absolute bottom-full left-1/2 -translate-x-1/2 mb-2*/}
+                    {/*  px-3 py-1.5*/}
+                    {/*  text-base font-medium*/}
+                    {/*  text-white bg-black bg-opacity-90*/}
+                    {/*  rounded-md*/}
+                    {/*  shadow-md*/}
+                    {/*  opacity-0 group-hover:opacity-100*/}
+                    {/*  transition-opacity duration-200*/}
+                    {/*  whitespace-nowrap*/}
+                    {/*  pointer-events-none*/}
+                    {/*  z-50*/}
+                    {/*  font-inter*/}
+                    {/*"*/}
+                    {/*                    >*/}
+                    {/*                      Click to copy link to clipboard*/}
+                    {/*                    </span>*/}
+                    {/*                  </div>*/}
                   </h2>
 
                   <ul className="list shadow-md">
                     {robot.specs.map((spec) => (
-                      <li key={spec.title} className="list-row">
+                      <li key={spec.title} className="py-2">
                         <div className="text-md text-white">
                           <span className="uppercase font-bold text-team">
                             {spec.title}:{" "}

@@ -27,13 +27,34 @@
 
 html,
 body {
-  scrollbar-width: none; /* Firefox */
+  /* Firefox */
+  overflow-x: hidden;
   -ms-overflow-style: none; /* IE and Edge */
 }
 
+/* Custom Scrollbar Styles */
 html::-webkit-scrollbar,
 body::-webkit-scrollbar {
-  display: none; /* Safari and Chrome */
+  width: 16px;
+}
+
+html::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+  background: #000000; /* Black background (outside) */
+}
+
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background-color: #ff66c4; /* Pink handle (inside) */
+  border-radius: 12px;
+  border: 2px solid #000000; /* Creates black outline */
+}
+
+/* Firefox support */
+html,
+body {
+  scrollbar-width: auto;
+  scrollbar-color: #ff66c4 #000000; /* thumb color | track color */
 }
 
 @theme inline {
@@ -42,15 +63,15 @@ body::-webkit-scrollbar {
 }
 
 .text-team {
-  color: #ff69b4;
+  color: #ff66c4;
 }
 
 .bg-team {
-  background-color: #ff69b4;
+  background-color: #ff66c4;
 }
 
 .btn-team {
-  background: #ff69b4;
+  background: #ff66c4;
 }
 
 /* global.css */

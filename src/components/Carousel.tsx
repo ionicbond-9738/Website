@@ -2,6 +2,8 @@
 
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
+import { shuffleArray } from "@/app/utils";
+import { images } from "next/dist/build/webpack/config/blocks/images";
 
 export interface CarouselProps {
   images: string[];
@@ -19,6 +21,8 @@ export default function Carousel({
   const [current, setCurrent] = useState(0);
   const total = images.length;
   const timerRef = useRef<NodeJS.Timeout | null>(null);
+
+  const [shuffledImages] = useState(() => shuffleArray(images));
 
   // Resettable interval logic
   const resetInterval = () => {

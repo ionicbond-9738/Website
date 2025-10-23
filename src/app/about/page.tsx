@@ -69,9 +69,7 @@ export default function AboutPage() {
                 .
               </p>
               <button className="btn btn-sm sm:btn-md md:btn-lg lg:btn-xl btn-team text-lg text-zinc-900">
-                <a href={"/impact"}>
-                  For more details about our Outreach efforts
-                </a>
+                <a href={"/impact"}>Details</a>
               </button>
             </div>
           </div>
