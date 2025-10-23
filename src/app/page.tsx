@@ -80,7 +80,7 @@ export default function HomePage() {
           <div className="hero-content flex flex-col lg:flex-row items-center gap-8 relative lg:left-10 py-10">
             {/* Logo */}
             <Image
-              src="/assets/robot/robot_h2o_2024.jpg"
+              src="/assets/robot/h2o/1.jpg"
               alt="Robot H2O 2024"
               width={1000}
               height={1000}
@@ -101,8 +101,12 @@ export default function HomePage() {
                 emphasizes strategic planning, fundraising, team identity, and
                 promoting STEAM enthusiasm within their communities.
               </p>
-              <a href={"https://www.firstinspires.org/programs/frc/"}>
-                <button className="btn btn-sm sm:btn-md md:btn-lg lg:btn-xl btn-team text-zinc-600 rounded-lg">
+              <a
+                href={"https://www.firstinspires.org/programs/frc/"}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn btn-sm sm:btn-md md:btn-lg lg:btn-xl btn-team text-black rounded-lg">
                   Learn more about FIRST
                 </button>
               </a>

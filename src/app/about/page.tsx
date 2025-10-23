@@ -1,19 +1,12 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Image from "next/image";
 import Carousel from "@/components/Carousel";
-import { teamColor } from "@/style";
 import { PageTitle } from "@/components/PageTitle";
 
-const aboutImages = [
-  "/assets/misc/about/about1.png",
-  "/assets/misc/about/about2.png",
-  "/assets/misc/about/about3.png",
-  "/assets/misc/about/about4.png",
-  "/assets/misc/about/about5.png",
-  "/assets/misc/about/about6.png",
-  "/assets/misc/about/about7.png",
-];
+const aboutImages = Array.from(
+  { length: 7 },
+  (_, i) => `/assets/misc/about/${i + 1}.png`,
+);
 
 export default function AboutPage() {
   return (
@@ -41,7 +34,7 @@ export default function AboutPage() {
 
               <p className="text-base sm:text-lg">
                 We are{" "}
-                <span className="italic font-bold" style={{ color: teamColor }}>
+                <span className="italic font-bold text-team">
                   #9738 Ionic Bond
                 </span>
                 , a FIRST Robotics Competition team from Tel-Mond, Israel. Our
@@ -76,9 +69,7 @@ export default function AboutPage() {
                 .
               </p>
               <button className="btn btn-sm sm:btn-md md:btn-lg lg:btn-xl btn-team text-lg text-zinc-900">
-                <a href={"/impact"}>
-                  For more details about our Outreach efforts
-                </a>
+                <a href={"/impact"}>Details</a>
               </button>
             </div>
           </div>

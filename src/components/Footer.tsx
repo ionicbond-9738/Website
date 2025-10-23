@@ -49,7 +49,12 @@ export default function Footer() {
         {/* Middle: Contact */}
         <nav>
           <h6 className="footer-title">Contact Us</h6>
-          <a className="link link-hover" href="mailto:frctelmond@gmail.com">
+          <a
+            className="link link-hover"
+            href="mailto:frctelmond@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             &#102;&#114;&#99;&#116;&#101;&#108;&#109;&#111;&#110;&#100;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;
           </a>
         </nav>
