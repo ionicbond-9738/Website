@@ -17,13 +17,13 @@ export default function AboutPage() {
           <PageTitle title="About" />
 
           {/* Carousel + Text block */}
-          <div className="flex flex-col lg:flex-row items-start ">
+          <div className="flex flex-col lg:flex-row items-start">
             {/* Left: Carousel */}
             <Carousel
               images={aboutImages}
               interval={3000}
               autoScroll
-              className="w-[90vw] max-w-[800px] h-[220px] sm:h-[280px] md:h-[320px] lg:h-[400px] mr-20 mt-10 mb-10"
+              className="w-[90vw] max-w-[800px] h-[220px] sm:h-[280px] md:h-[320px] lg:h-[400px] mr-20 mt-20 mb-10"
             />
 
             {/* Right: Text + Button */}
