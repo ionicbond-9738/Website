@@ -132,7 +132,7 @@ export default function HomePage() {
                 alt={logo.alt}
                 width={280} // intrinsic width
                 height={280} // intrinsic height
-                className="w-full h-auto object-contain rounded-lg shadow-2xl"
+                className="w-full h-auto object-contain rounded-lg"
               />
             </div>
           ))}
