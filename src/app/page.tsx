@@ -4,7 +4,6 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { PageTitle } from "@/components/PageTitle";
 import Carousel from "@/components/Carousel";
 
 const aboutImages = Array.from(
@@ -130,12 +129,12 @@ export default function HomePage() {
                 images={aboutImages}
                 interval={3000}
                 autoScroll
-                className="w-[90vw] max-w-[800px] h-[220px] sm:h-[280px] md:h-[320px] lg:h-[400px] mr-20 mt-10 mb-10"
+                className="w-[90vw] max-w-[1000px] h-[220px] sm:h-[280px] md:h-[320px] lg:h-[400px] mr-5 ml-5 mt-10 mb-10"
              />
 
             {/* Text */}
             <div className="px-4 max-w-2xl text-center flex flex-col items-center gap-4">
-              <h1 className="text-2xl sm:text-xl lg:text-3xl font-bold font-anton leading-tight text-team">
+              <h1 className="text-2xl sm:text-5xl text-team font-bold font-anton leading-tight tracking-wide">
                 Who We Are
               </h1>
               <p className="text-lg sm:text-base lg:text-xl py-4">
@@ -146,7 +145,7 @@ export default function HomePage() {
                 , a FIRST Robotics Competition team from Tel-Mond, Israel. Our
                 team, which was established in 2024, consists of 17 passionate
                 high-school students, and 7 dedicated volunteer mentors.
-              <p className="sm:text-lg">
+
                 During the 2024 CRESCENDO season, we made a remarkable debut,
                 proudly serving as the
                 <strong> alliance captain for the 4th alliance</strong> in
@@ -156,7 +155,6 @@ export default function HomePage() {
                 <strong>Rookie High Seed Award</strong> (given to first-year
                 teams that has made the highest ranking out of the rookie teams)
                 three times.
-              </p>
                 Alongside our competitive activities, we participate in outreach
                 initiatives to make an impact on our community and encourage a
                 passion for{" "}
@@ -172,15 +170,11 @@ export default function HomePage() {
                 </span>
                 .
               </p>
-              <a
-                href={"https://www.firstinspires.org/programs/frc/"}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="btn btn-sm sm:btn-md md:btn-lg lg:btn-xl btn-team text-black rounded-lg">
-                  Learn more about FIRST
-                </button>
-              </a>
+
+              <button className="btn btn-sm sm:btn-md md:btn-lg lg:btn-xl btn-team text-xl text-zinc-900 px-30 py-5">
+                  <a href={"/impact"}>Details</a>
+              </button>
+
             
 
              
