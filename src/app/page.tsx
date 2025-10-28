@@ -129,24 +129,25 @@ export default function HomePage() {
                 images={aboutImages}
                 interval={3000}
                 autoScroll
-                className="w-[90vw] max-w-[1000px] h-[220px] sm:h-[280px] md:h-[320px] lg:h-[400px] mr-5 ml-5 mt-10 mb-10"
+                className="w-[90vw] max-w-[1000px] h-[240px] sm:h-[280px] md:h-[320px] lg:h-[400px] mr-2 ml-2 mt-10 mb-10"
              />
 
-            {/* Text */}
+            {/* Text and title */}
             <div className="px-4 max-w-2xl text-center flex flex-col items-center gap-4">
               <h1 className="text-2xl sm:text-5xl text-team font-bold font-anton leading-tight tracking-wide">
                 Who We Are
               </h1>
               <p className="text-lg sm:text-base lg:text-xl py-4">
+
                 We are{" "}
                 <span className="italic font-bold text-team">
                   #9738 Ionic Bond
                 </span>
                 , a FIRST Robotics Competition team from Tel-Mond, Israel. Our
                 team, which was established in 2024, consists of 17 passionate
-                high-school students, and 7 dedicated volunteer mentors.
+                high-school students, and 7 dedicated volunteer mentors.<br />
 
-                During the 2024 CRESCENDO season, we made a remarkable debut,
+                <br />During the 2024 CRESCENDO season, we made a remarkable debut,
                 proudly serving as the
                 <strong> alliance captain for the 4th alliance</strong> in
                 Israeli District #4. We are also proud to have received the{" "}
@@ -154,7 +155,7 @@ export default function HomePage() {
                 teams that had a great impact on their community) twice and the{" "}
                 <strong>Rookie High Seed Award</strong> (given to first-year
                 teams that has made the highest ranking out of the rookie teams)
-                three times.
+                three times.<br />                                          <br />
                 Alongside our competitive activities, we participate in outreach
                 initiatives to make an impact on our community and encourage a
                 passion for{" "}
