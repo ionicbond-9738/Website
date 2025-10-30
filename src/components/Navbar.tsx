@@ -11,7 +11,7 @@ export default function Navbar() {
     { href: "/", label: "Home" },
     { href: "/robots", label: "Robots" },
     { href: "/impact", label: "Impact" },
-    { href: "/support-us", label: "Support Us!" },
+    { href: "/support", label: "Support" },
   ];
 
   return (

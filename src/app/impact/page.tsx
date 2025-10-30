@@ -80,7 +80,7 @@ export default function AboutPage() {
             <ActivityCard
               title="Hospital Schneider"
               image="/assets/misc/impact/hospital.jpg"
-              text="Our team along Steampunk 1577 volenteered at hospital Schneider,
+              text="Our team alongside Steampunk 1577 volenteered at hospital Schneider,
                          encouraging patients to participate in STEM related activities."
             />
             <ActivityCard
