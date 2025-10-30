@@ -5,9 +5,10 @@ import { PageTitle } from "@/components/PageTitle";
 import Image from "next/image";
 
 const impactImages = Array.of(
-    "/assets/misc/impact/independence_demonstration.png",
-    "/assets/misc/impact/end_of_june.jpg",
-    "/assets/misc/impact/parent_demonstration.jpg");
+  "/assets/misc/impact/independence_demonstration.png",
+  "/assets/misc/impact/end_of_june.jpg",
+  "/assets/misc/impact/parent_demonstration.jpg",
+);
 
 const cheeseImages = Array.from(
   { length: 7 },
@@ -15,38 +16,31 @@ const cheeseImages = Array.from(
 );
 
 function ActivityCard({
-                          title,
-                          image,
-                          text,
-                      }: {
-    title: string;
-    image: string;
-    text: string;
+  title,
+  image,
+  text,
+}: {
+  title: string;
+  image: string;
+  text: string;
 }) {
-    return (
-        <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-10 w-full max-w-5xl">
-            {/* Image */}
-            <div className="relative w-full sm:w-4/5 md:w-[420px] lg:w-[520px] aspect-[16/9] max-w-full rounded-lg shadow-2xl overflow-hidden select-none">
-                <Image
-                    src={image}
-                    alt={title}
-                    fill
-                    className="object-cover"
-                />
-            </div>
+  return (
+    <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-10 w-full max-w-5xl">
+      {/* Image */}
+      <div className="relative w-full sm:w-4/5 md:w-[420px] lg:w-[520px] aspect-[16/9] max-w-full rounded-lg shadow-2xl overflow-hidden select-none">
+        <Image src={image} alt={title} fill className="object-cover" />
+      </div>
 
-            {/* Text */}
-            <div className="flex flex-col justify-center gap-4 max-w-lg text-center lg:text-left">
-                <h2 className="text-3xl sm:text-5xl text-team font-bold font-anton leading-tight tracking-wide">
-                    {title}
-                </h2>
-                <p className="text-base sm:text-lg">{text}</p>
-            </div>
-        </div>
-    );
+      {/* Text */}
+      <div className="flex flex-col justify-center gap-4 max-w-lg text-center lg:text-left">
+        <h2 className="text-3xl sm:text-5xl text-team font-bold font-anton leading-tight tracking-wide">
+          {title}
+        </h2>
+        <p className="text-base sm:text-lg">{text}</p>
+      </div>
+    </div>
+  );
 }
-
-
 
 export default function AboutPage() {
   return (
