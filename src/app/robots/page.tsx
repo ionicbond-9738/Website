@@ -71,7 +71,7 @@ export default function HistoryPage() {
       <Navbar />
       <main className="flex-1">
         <div className="mx-auto max-w-screen-xl px-4 flex flex-col">
-          <PageTitle title="History" />
+          <PageTitle title="Robots" />
           <div className={"py-5"} />
           {/* Spacer */}
           {robots.map((robot) => {
@@ -113,7 +113,7 @@ export default function HistoryPage() {
                     {/*                    <button*/}
                     {/*                      onClick={() => {*/}
                     {/*                        navigator.clipboard.writeText(*/}
-                    {/*                          `${window.location.origin}/history#${sectionId}`,*/}
+                    {/*                          `${window.location.origin}/robots#${sectionId}`,*/}
                     {/*                        );*/}
                     {/*                        sendAlert();*/}
                     {/*                      }}*/}
