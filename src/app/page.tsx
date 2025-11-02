@@ -11,7 +11,7 @@ const aboutImages = Array.from(
   (_, i) => `/assets/misc/about/${i + 1}.png`,
 );
 
-export function Hero() {
+function Hero() {
   return (
     <div className="mx-auto max-w-screen-xl px-4">
       <div className="hero-content flex flex-col lg:flex-row items-center gap-8 relative lg:right-10 text-team">
