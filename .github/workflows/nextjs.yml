@@ -1,4 +1,4 @@
-name: Deploy Next.js site to Pages
+name: Deploy Next.js 16 site to Pages
 
 on:
   push:
@@ -38,7 +38,7 @@ jobs:
             exit 1
           fi
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
@@ -60,23 +60,20 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
 
-      - name: Build Next.js project
+      - name: Build Next.js (App Router)
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
 
-      - name: Export static site
-        run: ${{ steps.detect-package-manager.outputs.runner }} next export
-
-      # ✅ Ensure public assets (images, favicon, etc.) are included in the output
-      - name: Copy public folder and other static assets
+      # ✅ Copy public folder (if not auto-included)
+      - name: Copy public assets
         run: |
           mkdir -p ./out
-          cp -r ./public/* ./out/ || true
+          cp -r public/* out/ 2>/dev/null || true
 
-      # ✅ Optional: Include any other custom folders (e.g., static/, assets/)
+      # ✅ Optional: Copy any extra static folders
       - name: Copy extra static directories
         run: |
-          if [ -d "static" ]; then cp -r static ./out/; fi
-          if [ -d "assets" ]; then cp -r assets ./out/; fi
+          if [ -d "static" ]; then cp -r static out/; fi
+          if [ -d "assets" ]; then cp -r assets out/; fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
