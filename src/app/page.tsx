@@ -11,7 +11,7 @@ const aboutImages = Array.from(
   (_, i) => `/assets/misc/about/${i + 1}.png`,
 );
 
-function Hero() {
+function TitleHero() {
   return (
     <div className="mx-auto max-w-screen-xl px-4">
       <div className="hero-content flex flex-col lg:flex-row items-center gap-8 relative lg:right-10 text-team">
@@ -69,7 +69,7 @@ export default function HomePage() {
 
       <main className="flex-grow">
         {/* Hero Section */}
-        <Hero />
+        <TitleHero />
 
         <div className="mx-auto max-w-screen-xl px-4 py-6">
           <Image
