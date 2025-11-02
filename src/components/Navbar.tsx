@@ -88,7 +88,7 @@ export default function Navbar() {
         </div>
 
         {/* Sidebar Drawer Content */}
-        <div className="drawer-side">
+        <div className="drawer-side z-100">
           <label htmlFor="nav-drawer" className="drawer-overlay"></label>
           <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
             {navItems.map(({ href, label }) => (
