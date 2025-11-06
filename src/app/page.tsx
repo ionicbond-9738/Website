@@ -8,7 +8,7 @@ import Carousel from "@/components/Carousel";
 
 const aboutImages = Array.from(
   { length: 7 },
-  (_, i) => `/assets/misc/about/${i + 1}.png`,
+  (_, i) => `/Website/assets/misc/about/${i + 1}.png`,
 );
 
 function TitleHero() {
@@ -73,7 +73,7 @@ export default function HomePage() {
 
         <div className="mx-auto max-w-screen-xl px-4 py-6">
           <Image
-            src="/assets/team/team_photo_2025.jpg"
+            src="/Website/assets/team/team_photo_2025.jpg"
             alt="Team Photo"
             width={854}
             height={480}
@@ -86,7 +86,7 @@ export default function HomePage() {
           <div className="hero-content flex flex-col lg:flex-row items-center gap-8 relative lg:left-10 py-10 text-center">
             {/* Logo */}
             <Image
-              src="/assets/robot/h2o/1.jpg"
+              src="/Website/assets/robot/h2o/1.jpg"
               alt="Robot H2O 2024"
               width={800}
               height={800}
@@ -182,10 +182,10 @@ export default function HomePage() {
 
         <div className="mx-auto max-w-screen-xl px-4 flex flex-wrap justify-center gap-4 mt-20">
           {[
-            { src: "/assets/logos/first_vertical.png", alt: "FIRST Logo" },
-            { src: "/assets/logos/tel_mond.png", alt: "Tel Mond Logo" },
+            { src: "/Website/assets/logos/first_vertical.png", alt: "FIRST Logo" },
+            { src: "/Website/assets/logos/tel_mond.png", alt: "Tel Mond Logo" },
             {
-              src: "/assets/logos/community_center.png",
+              src: "/Website/assets/logos/community_center.png",
               alt: "Community Center Logo",
             },
           ].map((logo, index) => (

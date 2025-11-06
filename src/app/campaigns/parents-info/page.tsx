@@ -9,7 +9,7 @@ export default function Support() {
         <Navbar />
         <main className="flex-grow mt-5 mx-auto">
           <Image
-            src={"/assets/misc/campaigns/parents_info.png"}
+            src={"/Website/assets/misc/campaigns/parents_info.png"}
             alt={"Parents Information"}
             width={600}
             height={600}

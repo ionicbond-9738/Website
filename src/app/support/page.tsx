@@ -23,7 +23,7 @@ export default function Support() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href={"/assets/sponsors.pdf"}
+                href={"/Website/assets/sponsors.pdf"}
               >
                 Details
               </a>

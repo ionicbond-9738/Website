@@ -14,7 +14,7 @@ const robots: Robot[] = [
     year: 2025,
     images: Array.from(
       { length: 3 },
-      (_, i) => `/assets/robot/zinc/${i + 1}.png`,
+      (_, i) => `/Website/assets/robot/zinc/${i + 1}.png`,
     ),
     specs: [
       { title: "Weight", detail: "52kg" },
@@ -31,14 +31,14 @@ const robots: Robot[] = [
           "Custom vision framework designed to run on an external coprocessor",
       },
     ],
-    binderLink: "/assets/binders/2025.pdf",
+    binderLink: "/Website/assets/binders/2025.pdf",
   },
   {
     name: "Dopamine (CRESCENDO)",
     year: 2024,
     images: Array.from(
       { length: 3 },
-      (_, i) => `/assets/robot/dopamine/${i + 1}.png`,
+      (_, i) => `/Website/assets/robot/dopamine/${i + 1}.png`,
     ),
     specs: [
       { title: "Weight", detail: "45kg" },
@@ -54,7 +54,7 @@ const robots: Robot[] = [
       },
       { title: "Climber", detail: "Deployable Hooks Mounted on the Arm" },
     ],
-    binderLink: "/assets/binders/2024.pdf",
+    binderLink: "/Website/assets/binders/2024.pdf",
   },
 ];
 

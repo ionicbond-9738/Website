@@ -5,9 +5,9 @@ import { PageTitle } from "@/components/PageTitle";
 import Image from "next/image";
 
 const impactImages = Array.of(
-  "/assets/misc/impact/independence_demonstration.png",
-  "/assets/misc/impact/end_of_june.jpg",
-  "/assets/misc/impact/parent_demonstration.jpg",
+  "/Website/assets/misc/impact/independence_demonstration.png",
+  "/Website/assets/misc/impact/end_of_june.jpg",
+  "/Website/assets/misc/impact/parent_demonstration.jpg",
 );
 
 const cheeseImages = Array.from(
@@ -79,13 +79,13 @@ export default function AboutPage() {
           <div className="flex justify-center flex-col items-center space-y-7">
             <ActivityCard
               title="Hospital Schneider"
-              image="/assets/misc/impact/hospital.jpg"
+              image="/Website/assets/misc/impact/hospital.jpg"
               text="Our team alongside Steampunk 1577 volenteered at hospital Schneider,
                          encouraging patients to participate in STEM related activities."
             />
             <ActivityCard
               title="Robotics Demonstrations"
-              image="/assets/misc/impact/demonstration.jpg"
+              image="/Website/assets/misc/impact/demonstration.jpg"
               text="
                         In our school and community,
                         we organized numerous robotics demonstrations
@@ -93,7 +93,7 @@ export default function AboutPage() {
             />
             <ActivityCard
               title="Elementary School Visits"
-              image="/assets/misc/impact/elementary.jpg"
+              image="/Website/assets/misc/impact/elementary.jpg"
               text="Teaching elementary school students
               about STEM through engaging science
                and technology activities, we
@@ -102,14 +102,14 @@ export default function AboutPage() {
             />
             <ActivityCard
               title="Hanubotica"
-              image="/assets/misc/impact/hanubotica.jpg"
+              image="/Website/assets/misc/impact/hanubotica.jpg"
               text="A fun Hanukkah event for kids in elementary
               school and kindergarten featuring STEM related
               activities and demonstration of our robot."
             />
             <ActivityCard
               title="Promoting Inclusivity"
-              image="/assets/misc/impact/pride.jpg"
+              image="/Website/assets/misc/impact/pride.jpg"
               text="Our team promotes inclusivity in the
                FIRST Israel community through the
                yearly End of June Event.."
