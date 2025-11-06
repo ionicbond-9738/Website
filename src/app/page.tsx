@@ -182,7 +182,10 @@ export default function HomePage() {
 
         <div className="mx-auto max-w-screen-xl px-4 flex flex-wrap justify-center gap-4 mt-20">
           {[
-            { src: "/Website/assets/logos/first_vertical.png", alt: "FIRST Logo" },
+            {
+              src: "/Website/assets/logos/first_vertical.png",
+              alt: "FIRST Logo",
+            },
             { src: "/Website/assets/logos/tel_mond.png", alt: "Tel Mond Logo" },
             {
               src: "/Website/assets/logos/community_center.png",
