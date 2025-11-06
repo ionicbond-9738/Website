@@ -46,7 +46,7 @@ export default function Navbar() {
                 <Link href="/">
                   <div className="btn-ghost btn-circle w-10 rounded-full cursor-pointer">
                     <Image
-                      src="/logo.png"
+                      src="/Website/logo-hr.png"
                       width={500}
                       height={500}
                       alt="Logo"

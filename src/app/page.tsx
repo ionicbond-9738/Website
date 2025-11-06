@@ -27,7 +27,7 @@ function TitleHero() {
           }}
         >
           <Image
-            src="/logo-hr.png"
+            src="/Website/logo-hr.png"
             width={280}
             height={280}
             alt="Logo"
