@@ -7,8 +7,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // ✅ disable optimization for static export
   },
-  basePath: repoName ? `/${repoName}` : "",
-  assetPrefix: repoName ? `/${repoName}/` : "",
+  basePath: "/Website",
+  assetPrefix: "/Website",
   webpack(config) {
     // Grab the existing rule that handles SVG imports
     const fileLoaderRule = config.module.rules.find((rule: any) =>

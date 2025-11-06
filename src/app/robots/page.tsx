@@ -4,11 +4,11 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { PageTitle } from "@/components/PageTitle";
 import Carousel from "@/components/Carousel";
-import LinkIcon from "@/assets/icons/link.svg";
-import Link from "next/link";
 import { useState } from "react";
 
-const robots = [
+import { Robot } from "@/app/types/robots";
+
+const robots: Robot[] = [
   {
     name: "Zinc (REEFSCAPE)",
     year: 2025,

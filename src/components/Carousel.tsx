@@ -3,7 +3,6 @@
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { shuffleArray } from "@/app/utils";
-import { images } from "next/dist/build/webpack/config/blocks/images";
 
 export interface CarouselProps {
   images: string[];
