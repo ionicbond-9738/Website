@@ -4,32 +4,32 @@ import { IconButton } from "@/components/Icon";
 export default function Footer() {
   const socialIcons = [
     {
-      icon: "/icons/github.svg",
+      icon: "/Website/icons/github.svg",
       alt: "GitHub",
       link: "https://github.com/ionicbond-9738",
     },
     {
-      icon: "/icons/instagram.svg",
+      icon: "/Website/icons/instagram.svg",
       alt: "Instagram",
       link: "https://www.instagram.com/ionic_bond_9738/",
     },
     {
-      icon: "/icons/alliance.svg",
+      icon: "/Website/icons/alliance.svg",
       alt: "The Blue Alliance",
       link: "https://www.thebluealliance.com/team/9738",
     },
     {
-      icon: "/icons/tiktok.svg",
+      icon: "/Website/icons/tiktok.svg",
       alt: "Tiktok",
       link: "https://www.tiktok.com/@ionic.bond9738",
     },
     {
-      icon: "/icons/facebook.svg",
+      icon: "/Website/icons/facebook.svg",
       alt: "Facebook",
       link: "https://www.facebook.com/IonicBond9738/",
     },
     {
-      icon: "/icons/youtube.svg",
+      icon: "/Website/icons/youtube.svg",
       alt: "YouTube",
       link: "https://www.youtube.com/@IonicBond9738",
     },
@@ -41,7 +41,12 @@ export default function Footer() {
         {/* Left: Logo and Team Name */}
         <aside className="flex flex-col items-start">
           <div className="hidden sm:block">
-            <Image src="/logo-hr.png" width={100} height={100} alt="Logo" />
+            <Image
+              src="/Website/logo-hr.png"
+              width={100}
+              height={100}
+              alt="Logo"
+            />
             <h3 className="font-bold">Ionic Bond 9738</h3>
           </div>
         </aside>

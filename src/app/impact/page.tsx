@@ -27,7 +27,7 @@ function ActivityCard({
   return (
     <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-10 w-full max-w-5xl">
       {/* Image */}
-      <div className="relative w-full sm:w-4/5 md:w-[420px] lg:w-[520px] aspect-[16/9] max-w-full rounded-lg shadow-2xl overflow-hidden select-none">
+      <div className="relative w-full sm:w-4/5 md:w-[420px] lg:w-[520px] aspect-[16/9] max-w-full rounded-lg  overflow-hidden select-none">
         <Image src={image} alt={title} fill className="object-cover" />
       </div>
 

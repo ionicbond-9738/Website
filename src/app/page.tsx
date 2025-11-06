@@ -31,7 +31,7 @@ function TitleHero() {
             width={280}
             height={280}
             alt="Logo"
-            className="w-40 sm:w-56 md:w-64 lg:w-72 xl:w-[280px] max-w-full rounded-lg shadow-2xl select-none"
+            className="w-40 sm:w-56 md:w-64 lg:w-72 xl:w-[280px] max-w-full rounded-lg  select-none"
           />
         </motion.div>
 
@@ -90,7 +90,7 @@ export default function HomePage() {
               alt="Robot H2O 2024"
               width={800}
               height={800}
-              className="w-full max-w-[600px] rounded-lg shadow-2xl"
+              className="w-full max-w-[600px] rounded-lg "
             />
 
             {/* Text */}
@@ -126,7 +126,7 @@ export default function HomePage() {
               images={aboutImages}
               interval={3000}
               autoScroll
-              className="w-full max-w-[600px] rounded-lg shadow-2xl min-h-[300px] sm:min-h-[400px]"
+              className="w-full max-w-[600px] rounded-lg  min-h-[300px] sm:min-h-[400px]"
             />
 
             {/* Text and title */}

@@ -50,7 +50,7 @@ export default function Carousel({
 
   return (
     <div
-      className={`relative rounded-2xl overflow-hidden shadow-2xl select-none ${className}`}
+      className={`relative rounded-2xl overflow-hidden  select-none ${className}`}
     >
       {/* Image Wrapper with transition */}
       <div className="relative w-full h-[400px] sm:h-[500px]">
